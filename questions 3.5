@@ -1,0 +1,9 @@
+
+1)Le code ne respecte pas le principe DIP car le System.out.println affiche dans le terminal alors que la fonction 
+uneMethodeMetier() doit être indépendante du terminal.
+
+
+2)On fait une fonction afficheHeure() qui masque l'appel au terminal.
+void afficheHeure(){
+System.out.println (LocalDateTime.now() + " heure"); 
+}
